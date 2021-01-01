@@ -60,6 +60,10 @@ Step 3: Now, we have got reduced dataset we perform KMeans and PCA with the new 
 optimal K = 4
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/encoded_Eblow_graph.jpg)
 
+histogram obtained.
+![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/encoded_cluster1.jpg)
+![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/encoded_cluster2.jpg)
+
 PCA
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/cluster_with_4.jpg)
 
