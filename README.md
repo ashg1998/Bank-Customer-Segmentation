@@ -39,6 +39,7 @@ Find the optimal number of clusters.
 using Eblow Method:
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/ELBOW_GRAPH.JPG)
 We noticed at 8 clusters it gives minimum error. So 8 clusters are used for KMeans Clustering.
+We scale down the data from 
 
 Next: We Apply the KMeans Algorithm and plot histogram of each columns according to Cluster they all in:
 This is the result we get.
@@ -46,4 +47,23 @@ This is the result we get.
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/cluster2.JPG)
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/cluster3.JPG)
 ![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/cluster4.JPG)
-After applying PCA reducin
+After applying PCA reducing the dimensions into 2 columns.
+Then clustering the dataset , we get the following result
+![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/PCAcluster.jpg)
+
+#Now we Switch to Neural Network:
+Step 1: We build a autoencoder neural network
+Step 2: We train the model with the scaled data and reduce dimensionality of the dataset.
+Step 3: Now, we have got reduced dataset we perform KMeans and PCA with the new dataset.
+
+# Results:
+optimal K = 4
+![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/encoded_Eblow_graph.jpg)
+
+PCA
+![alt text](https://github.com/ashg1998/Bank-Customer-Segmentation/blob/main/images/cluster_with_4.jpg)
+
+
+
+
+
